@@ -72,10 +72,12 @@ ul {
 
 .hover-red:hover {
   color: var(--soft-red);
+  cursor: pointer;
 }
 
 .hover-orange:hover {
   color: var(--soft-orange);
+  cursor: pointer;
 }
 
 /* HEADER */
@@ -154,11 +156,6 @@ ul {
   border-bottom: none;
 }
 
-.right-links {
-  color: var(--off-white);
-  font-weight: 700;
-}
-
 .bottom {
   gap: 2em;
 }
@@ -184,7 +181,7 @@ ul {
   font-weight: 700;
 }
 
-.bottom-links {
+.bottom-title {
   color: var(--very-dark-blue);
   font-weight: 800;
   font-size: 1.1rem;
